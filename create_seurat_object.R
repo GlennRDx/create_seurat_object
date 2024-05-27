@@ -16,7 +16,7 @@ library(hdf5r)
 library(Matrix)
 
 # Define the path to your HDF5 file
-h5_file <- "/home/student2/seurat/file.h5"
+h5_file <- "/home/student2/seurat/GSE147319_adata_processed.h5"
 
 # Open the HDF5 file
 h5 <- H5File$new(h5_file, mode = "r")
